@@ -1,7 +1,7 @@
 import fs from 'fs'
 import path from 'path'
-import {terser} from 'rollup-plugin-terser'
-import babel from 'rollup-plugin-babel'
+import { terser } from 'rollup-plugin-terser'
+import babel from '@rollup/plugin-babel'
 import commonjs from 'rollup-plugin-commonjs'
 
 const files = fs.readdirSync('./src/locale/translations')
@@ -15,7 +15,7 @@ const config = files.map(file => {
     },
     plugins: [
       commonjs(),
-      babel({exclude: 'node_modules/**'}),
+      babel({ exclude: 'node_modules/**' }),
       terser()
     ]
   }
@@ -30,7 +30,7 @@ const index = {
   },
   plugins: [
     commonjs(),
-    babel({exclude: 'node_modules/**'}),
+    babel({ exclude: 'node_modules/**' }),
     terser()
   ]
 }
