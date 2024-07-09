@@ -1,9 +1,9 @@
 # Datepicker
 
-[![Travis Build](https://img.shields.io/travis/charliekassel/vuejs-datepicker.svg)](https://travis-ci.org/charliekassel/vuejs-datepicker)
-[![Version](https://img.shields.io/npm/v/vuejs-datepicker.svg)](https://www.npmjs.com/package/vuejs-datepicker)
-[![Coveralls github](https://img.shields.io/coveralls/github/charliekassel/vuejs-datepicker.svg)](https://coveralls.io/github/charliekassel/vuejs-datepicker?branch=master)
-[![Downloads](https://img.shields.io/npm/dm/vuejs-datepicker.svg)](https://www.npmjs.com/package/vuejs-datepicker)
+[![Travis Build](https://img.shields.io/travis/hirenkeraliya/hiren-vuejs-datepicker.svg)](https://travis-ci.org/hirenkeraliya/hiren-vuejs-datepicker)
+[![Version](https://img.shields.io/npm/v/hiren-vuejs-datepicker.svg)](https://www.npmjs.com/package/hiren-vuejs-datepicker)
+[![Coveralls github](https://img.shields.io/coveralls/github/hirenkeraliya/hiren-vuejs-datepicker.svg)](https://coveralls.io/github/hirenkeraliya/hiren-vuejs-datepicker?branch=master)
+[![Downloads](https://img.shields.io/npm/dm/hiren-vuejs-datepicker.svg)](https://www.npmjs.com/package/hiren-vuejs-datepicker)
 
 A datepicker Vue component. Compatible with Vue 2.x
 
@@ -48,10 +48,10 @@ export default {
 Or use directly from a CDN
 ``` html
 <div id="app">
-  <vuejs-datepicker></vuejs-datepicker>
+  <vuejs-datepicker></hiren-vuejs-datepicker>
 </div>
 <script src="https://unpkg.com/vue"></script>
-<script src="https://unpkg.com/vuejs-datepicker"></script>
+<script src="https://unpkg.com/hiren-vuejs-datepicker"></script>
 <script>
 const app = new Vue({
   el: '#app',
@@ -63,11 +63,11 @@ const app = new Vue({
 
 <!-- French language example -->
 <div id="app">
-  <vuejs-datepicker :language="fr"></vuejs-datepicker>
+  <vuejs-datepicker :language="fr"></hiren-vuejs-datepicker>
 </div>
 <script src="https://unpkg.com/vue"></script>
-<script src="https://unpkg.com/vuejs-datepicker"></script>
-<script src="https://unpkg.com/vuejs-datepicker/dist/locale/translations/fr.js"></script>
+<script src="https://unpkg.com/hiren-vuejs-datepicker"></script>
+<script src="https://unpkg.com/hiren-vuejs-datepicker/dist/locale/translations/fr.js"></script>
 <script>
 const app = new Vue({
   el: '#app',

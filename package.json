@@ -1,6 +1,6 @@
 {
   "name": "hiren-vuejs-datepicker",
-  "version": "2.1.0",
+  "version": "2.0.3",
   "description": "A simple Vue.js datepicker component. Supports disabling of dates, inline mode, translations",
   "keywords": [
     "vue",
@@ -8,20 +8,20 @@
     "date-picker",
     "calendar"
   ],
-  "main": "dist/vuejs-datepicker.js",
-  "module": "dist/vuejs-datepicker.esm.js",
-  "unpkg": "dist/vuejs-datepicker.min.js",
+  "main": "dist/hiren-vuejs-datepicker.js",
+  "module": "dist/hiren-vuejs-datepicker.esm.js",
+  "unpkg": "dist/hiren-vuejs-datepicker.min.js",
   "files": [
     "src",
     "dist"
   ],
-  "author": "Charlie Kassel <ck@charliekassel.com>",
+  "author": "Hiren Keraliya <hirenkeradiya@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/charliekassel/vuejs-datepicker"
+    "url": "https://github.com/hirenkeraliya/vuejs-datepicker"
   },
   "bugs": {
-    "url": "https://github.com/charliekassel/vuejs-datepicker/issues"
+    "url": "https://github.com/hirenkeraliya/vuejs-datepicker/issues"
   },
   "private": false,
   "license": "MIT",
