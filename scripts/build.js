@@ -1,7 +1,7 @@
 import path from 'path'
-import {terser} from 'rollup-plugin-terser'
+import { terser } from 'rollup-plugin-terser'
 import vue from 'rollup-plugin-vue'
-import babel from 'rollup-plugin-babel'
+import babel from '@rollup/plugin-babel'
 import postcss from 'rollup-plugin-postcss'
 import autoprefixer from 'autoprefixer'
 import commonjs from 'rollup-plugin-commonjs'
@@ -24,10 +24,10 @@ export default [{
     }
   ],
   plugins: [
-    vue({css: true}),
-    postcss({plugins: [autoprefixer()]}),
+    vue({ css: true }),
+    postcss({ plugins: [autoprefixer()] }),
     commonjs(),
-    babel({exclude: 'node_modules/**'})
+    babel({ exclude: 'node_modules/**' })
   ]
 }, {
   input: path.join(__dirname, '..', 'src', 'components', 'Datepicker.vue'),
@@ -37,10 +37,10 @@ export default [{
     name: 'vuejsDatepicker'
   },
   plugins: [
-    vue({css: true}),
-    postcss({plugins: [autoprefixer()]}),
+    vue({ css: true }),
+    postcss({ plugins: [autoprefixer()] }),
     commonjs(),
     terser(),
-    babel({exclude: 'node_modules/**'})
+    babel({ exclude: 'node_modules/**' })
   ]
 }]
