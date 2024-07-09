@@ -149,6 +149,6 @@ export default {
     this.input = this.$el.querySelector('input')
   }
 }
-// eslint-disable-next-line
+
 ;
 </script>

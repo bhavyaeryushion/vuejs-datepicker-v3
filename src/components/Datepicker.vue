@@ -457,7 +457,7 @@ export default {
     this.init()
   }
 }
-// eslint-disable-next-line
+
 ;
 </script>
 <style lang="stylus">

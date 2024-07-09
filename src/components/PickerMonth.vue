@@ -195,6 +195,6 @@ export default {
     }
   }
 }
-// eslint-disable-next-line
+
 ;
 </script>
