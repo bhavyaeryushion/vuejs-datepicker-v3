@@ -5,7 +5,9 @@
 [![Coveralls github](https://img.shields.io/coveralls/github/hirenkeraliya/hiren-vuejs-datepicker.svg)](https://coveralls.io/github/hirenkeraliya/hiren-vuejs-datepicker?branch=master)
 [![Downloads](https://img.shields.io/npm/dm/hiren-vuejs-datepicker.svg)](https://www.npmjs.com/package/hiren-vuejs-datepicker)
 
-A datepicker Vue component. Compatible with Vue 2.x
+Forked from: https://github.com/hirenkeraliya/vuejs-datepicker
+
+A datepicker Vue component. Compatible with Vue 3.x
 
 - [Demo](#demo)
 - [Install](#install)
