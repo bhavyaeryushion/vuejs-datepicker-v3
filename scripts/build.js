@@ -10,16 +10,16 @@ export default [{
   input: path.join(__dirname, '..', 'src', 'components', 'Datepicker.vue'),
   output: [
     {
-      file: 'dist/hiren-vuejs-datepicker.js',
+      file: 'dist/vuejs-datepicker-v3.js',
       format: 'umd',
       name: 'vuejsDatepicker'
     },
     {
-      file: 'dist/hiren-vuejs-datepicker.common.js',
+      file: 'dist/vuejs-datepicker-v3.common.js',
       format: 'cjs'
     },
     {
-      file: 'dist/hiren-vuejs-datepicker.esm.js',
+      file: 'dist/vuejs-datepicker-v3.esm.js',
       format: 'es'
     }
   ],
@@ -32,7 +32,7 @@ export default [{
 }, {
   input: path.join(__dirname, '..', 'src', 'components', 'Datepicker.vue'),
   output: {
-    file: 'dist/hiren-vuejs-datepicker.min.js',
+    file: 'dist/vuejs-datepicker-v3.min.js',
     format: 'umd',
     name: 'vuejsDatepicker'
   },

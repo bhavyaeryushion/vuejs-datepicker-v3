@@ -1,16 +1,16 @@
 {
-  "name": "hiren-vuejs-datepicker",
+  "name": "vuejs-datepicker-v3",
   "version": "2.0.3",
-  "description": "A simple Vue.js datepicker component. Supports disabling of dates, inline mode, translations",
+  "description": "A simple Vue 3 datepicker component. Supports disabling of dates, inline mode, translations",
   "keywords": [
     "vue",
     "datepicker",
     "date-picker",
     "calendar"
   ],
-  "main": "dist/hiren-vuejs-datepicker.js",
-  "module": "dist/hiren-vuejs-datepicker.esm.js",
-  "unpkg": "dist/hiren-vuejs-datepicker.min.js",
+  "main": "dist/vuejs-datepicker-v3.js",
+  "module": "dist/vuejs-datepicker-v3.esm.js",
+  "unpkg": "dist/vuejs-datepicker-v3.min.js",
   "files": [
     "src",
     "dist"
